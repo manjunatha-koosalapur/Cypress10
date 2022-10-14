@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo Cypress Test..",
+    "test": "echo Cypress Test",
     "cy-run": "cypress run",
     "cy-open": "cypress open",
     "cy-run-stg": "cypress run --config-file staging-config.json",
