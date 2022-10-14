@@ -9,4 +9,5 @@ jobs:
       # Install NPM dependencies, cache them correctly
       # and run all Cypress tests
       - name: Cypress run
+      #- name: e2e:cy:dashboard:tag
         uses: cypress-io/github-action@v4
