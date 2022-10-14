@@ -1,0 +1,4 @@
+{
+    "extends": "cypress.config.js",
+    "baseUrl": "https://opensource-demo.orangehrmlive.com"
+}

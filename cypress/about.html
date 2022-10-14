@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Page</title>
+</head>
+<body>
+    <h1>About</h1>
+
+    <hr />
+    <p>Cypress is Test Automation tool.
+        Can write tests in JavaScript or TypeScript, open source, does not use Selenium.
+        Supported browsers: Chrome, Firefox, Edge, Electron, Brave.
+        Cypress automatically detects available browsers on the OS</p>
+    <ul class="course-list">
+        <li class="list1 web">Cypress features:
+            time travel, 
+            debugging is easier, 
+            real time relaod, 
+            automatic waiting, 
+            helps to finding locators, 
+            provides network traffic control, 
+            consistent results, 
+            screenshots and vidieos, 
+            free and open source, 
+            great documentation</li>
+        <li class="list2 web">Type of tests
+            End-to-end tests
+            Integration tests
+            Unit tests</li>
+        <li class="list3 mobile" data-cy="JEST Course">Cypress pre-requesites - https://docs.cypress.io/guides/getting-started/installing-cypress#Operating-System
+            Windows 7 and above (64bit only)
+            macOS 10.9 and above (64bit only)
+            Node.js 12 and above
+            IDE</li>
+        <li class="list4 api">Create new folder for Cypress project
+            Open in VS Code IDE, run command: npm init -y
+            packaage.json file will create
+            Install cypress, run command: npm install cypress
+            Cypress will be added under dependecy section in packaage.json file. And node_modules will be added to project folder
+            Verify cypress version and check if all cypress componets are installed with below commands
+            npx cypress -v
+            npx cypress verify
+            Open cypress, run command: npx cypress open</li>
+        <li class="list5 mobile">Write tests
+            Step 1: create file under cypress e2e folder  
+            Step 2: At the top mention ///<reference types="cypress"/>
+            Mocha test runner comes built-in with cypress
+            Step 3: Write test function (it block)
+            Step 4: Run test, run command: npx cypress open
+            Configuration File (cypress.config.js) 
+            https://docs.cypress.io/guides/references/configuration#Configuration-File 
+            Step 5: Access elements</li>
+        <li class="list6 programming">Assertions:
+            Implicit assertions are built-in: should(), and()
+            ExplicitL are not built-in or reffered: expect(), assert()</li>
+        <li class="list7 web">Page Object Model (POM):
+            POM is a design principle, keep the objects & methods separate from test script</li>
+        <li class="list8 web">CLI:
+            command-line interface - to integrate testing with external process (CI/CD). Easier, faster, efficient, less memory consuming
+            npx cypress run
+            npx cypress run --help</li>
+        <li class="list9 web">Run on Chrome browser (headless):
+            npx cypress run --spec .\cypress\e2e\login_test.cy.js --browser chrome</li>
+        <li class="list10 web">Run on Chrome browser (headed):
+            npx cypress run --spec .\cypress\e2e\login_test.cy.js --headed chrome</li>
+        <li class="list11 web">To run tests with reference to scripts in package.json:
+            npm run test</li>
+        <li class="list12 web">npx cypress open  	- Runs cypress tests from Cypress App
+            npx cypress run		- Runs cypress tests from CLI
+            npx cypress verify 	- Verifies Cypress is installed correctly and is executable
+            npx cypress info 	- Prints information about Cypress and current environment
+            npx cypress version</li>
+        <li class="list12 web">Cache Manages the Cypress binary cache
+            npx cypress cache
+            npx cypress cache list</li>
+        <li class="list12 web">package.json file: records information about NodeJS project, list of dependencies with version
+            npm install   				-installs both dev and normal dependencies
+            npm install --dev			-installs only dev dependencies
+            npm install --prod			-will not include dev dependencies</li>
+        <li class="list12 web">package-lock.json file: records the exact version of each installed package which allows you to re-install them.
+            Locks the dependencies with the installed version</li>
+        <li class="list12 web" style="display: none;">will add more</li>
+    </ul>
+    <hr>
+
+</body>
+</html>

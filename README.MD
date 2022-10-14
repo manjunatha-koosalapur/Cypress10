@@ -1,0 +1,1 @@
+[![cypress10](https://img.shields.io/endpoint?url=https://dashboard.cypress.io/badge/detailed/x51ui9/master&style=flat&logo=cypress)](https://dashboard.cypress.io/projects/x51ui9/runs)

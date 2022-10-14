@@ -1,0 +1,8 @@
+image: cypress/base:16.13.0
+
+test:
+  stage: test
+  script: 
+    - npm install
+    - npm run e2e:cy:dashboard:tag
+    

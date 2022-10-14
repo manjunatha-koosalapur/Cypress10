@@ -1,0 +1,18 @@
+node_modules
+cypress/e2e/assertion.cy.js
+cypress/e2e/login_test.cy.js
+cypress/e2e/devices-viewports.cy.js
+cypress/e2e/filedownload.cy.js
+cypress/e2e/fileupload.cy.js
+cypress/e2e/login_test.cy.js
+cypress/e2e/pom.cy.js
+cypress/e2e/pom2.cy.js
+cypress/e2e/pom3.cy.js
+cypress/e2e/readwritefiles.cy.js
+cypress/e2e/test01.cy.js
+# cypress/e2e/demo.cy.js
+cypress/videos
+cypress/e2e/test02.cy.js
+cypress/screenshots
+cypress/videos
+example.txt
